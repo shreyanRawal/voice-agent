@@ -1,8 +1,18 @@
 # voice-agent
-A voiceatgent using openai models
+A voice agent using Groq models.
 
-steps:
+## Steps:
 
-i) Install necessary libraries, pip install streamlit audio_recorder_streamlit openai
+i) Install necessary libraries
 
+```bash
+pip install streamlit audio_recorder_streamlit groq python-dotenv
 
+Features:
+Speech to text using Whisper
+AI responses using Groq
+Text to speech
+Voice-based conversation
+Conversation history
+Saved sessions
+New conversations
